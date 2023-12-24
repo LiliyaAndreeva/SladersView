@@ -11,6 +11,8 @@
 		726608612B36FA6300E62D60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726608602B36FA6300E62D60 /* ContentView.swift */; };
 		726608632B36FA6500E62D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 726608622B36FA6500E62D60 /* Assets.xcassets */; };
 		726608662B36FA6500E62D60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 726608652B36FA6500E62D60 /* Preview Assets.xcassets */; };
+		7266086D2B36FC2D00E62D60 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7266086C2B36FC2D00E62D60 /* ButtonView.swift */; };
+		7266086F2B3706F700E62D60 /* UISliderRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7266086E2B3706F700E62D60 /* UISliderRepresentation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		726608602B36FA6300E62D60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		726608622B36FA6500E62D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		726608652B36FA6500E62D60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7266086C2B36FC2D00E62D60 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		7266086E2B3706F700E62D60 /* UISliderRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISliderRepresentation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				7266085E2B36FA6300E62D60 /* SladersViewApp.swift */,
 				726608602B36FA6300E62D60 /* ContentView.swift */,
+				7266086E2B3706F700E62D60 /* UISliderRepresentation.swift */,
+				7266086C2B36FC2D00E62D60 /* ButtonView.swift */,
 				726608622B36FA6500E62D60 /* Assets.xcassets */,
 				726608642B36FA6500E62D60 /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				726608612B36FA6300E62D60 /* ContentView.swift in Sources */,
 				7266085F2B36FA6300E62D60 /* SladersViewApp.swift in Sources */,
+				7266086D2B36FC2D00E62D60 /* ButtonView.swift in Sources */,
+				7266086F2B3706F700E62D60 /* UISliderRepresentation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
