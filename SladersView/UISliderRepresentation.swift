@@ -10,7 +10,7 @@ import SwiftUI
 struct UISliderRepresentation: UIViewRepresentable {
    
     @Binding var slidersValue: Double
-    var opacity: Int
+    var opacity: Double
     
     func makeUIView(context: Context) -> UISlider {
         let slider = UISlider()

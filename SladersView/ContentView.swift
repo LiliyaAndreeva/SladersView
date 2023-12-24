@@ -21,7 +21,7 @@ struct ContentView: View {
                 .padding(.bottom, 40)
             HStack {
                 Text("0")
-                UISliderRepresentation(slidersValue: $slidersValue, opacity: computeScore())
+                UISliderRepresentation(slidersValue: $slidersValue, opacity: Double(computeScore())/100)
                 Text("100")
             }
             .padding(.bottom, 20)
@@ -43,6 +43,7 @@ struct ContentView: View {
         }
         .padding()
     }
+    
     
     private func computeScore() -> Int {
         let difference = abs(slidersValue - randomNumber)
